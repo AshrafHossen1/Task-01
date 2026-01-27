@@ -1,33 +1,154 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+:root{
+--text-dark:#000;
+--text-light: #fff;
+--btn-dark-green: #469165;
+--text-footer-light: #FAFAFA;
+--text-green:#30B868;
+--text-dark-blue: #001931;
+--text-gray:#627382;
+--icon-bg:#F95555;
+--bg-gray:#F7F6F2;
+
+}
+
 *{
 margin: 0;
 padding: 0;
 box-sizing:border-box;
 
 }
-button{
-font-family: inherit;
-border: none;
-}
 body{
     
 font-family:'Inter', sans-serif;
 
 }
+button{
+    color:var(--text-light) ;
+font-family: inherit;
+border: none;
+padding: 1rem;
+border-radius: .13rem ;
+}
+
 li{
   list-style: none;
 }
 a{
     text-decoration: none;
 }
-header{
 
+.container{
+    width: ;
+    margin: 0 auto;
+}
+
+p{
+color: var(--text-gray);
+
+}
+h2{
+    color: var(--text-dark-blue) ;
+    font-size: 3rem;
+   font-weight: 700;
+}
+header{
+    padding: 1.5rem 0;
+width: 90%;
+margin: 0 auto;
 }
 header nav{
 display: flex;
 justify-content:space-between ;
 align-items: center;
 
+}
 
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.13rem;
+}
+header a{
+color:var(--text-dark);
+}
+header button{
+    background-color: var(--btn-dark-green);
+}
+
+
+
+.hero-sec{
+background-image: url(Images/hero-bg.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 40rem;
+
+}
+
+.hero-sec .badge{
+
+    display:inline flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--text-light);
+    gap: .5rem;
+    padding: .5rem;
+    border-radius: 1.1875rem;
+}
+.hero-sec .container{
+padding: 7rem 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1.5rem;
+}
+.badge span{
+color: var(--text-green);
+}
+h1{
+font-size: 4.5rem;
+font-weight: 700;
+color: var(--text-light);
+}
+h1 span{
+    color: var(--text-green);
+}
+.hero-sec p{
+
+    color:var(--text-light) ;
+}
+.btns {
+ display: flex;
+ align-items: center;
+ gap: 1rem;
+}
+.btns button:first-child {
+
+    display: inline-flex;
+align-items: center;
+gap: .5rem;
+
+background-color: var(--text-green);
+
+}
+.btns button:last-child{
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    background-color: transparent;
+    border: 1px solid var(--text-green);
+
+}
+
+.work-sec{
+    padding: top 2rem; ;
+}
+.work-sec h2{
+
+    
 }
