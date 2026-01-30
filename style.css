@@ -28,8 +28,8 @@ button{
     color:var(--text-light) ;
 font-family: inherit;
 border: none;
-padding: 1rem;
-border-radius: .13rem ;
+padding: 16px;
+border-radius: 4px ;
 }
 
 li{
@@ -50,11 +50,11 @@ color: var(--text-gray);
 }
 h2{
     color: var(--text-dark-blue) ;
-    font-size: 3rem;
+    font-size: 48px;
    font-weight: 700;
 }
 header{
-    padding: 1.5rem 0;
+    padding: 16px 0;
 width: 90%;
 margin: 0 auto;
 }
@@ -69,7 +69,7 @@ header ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1.13rem;
+    gap: 18px;
 }
 header a{
 color:var(--text-dark);
@@ -85,7 +85,7 @@ background-image: url(Images/hero-bg.png);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 40rem;
+height: 640px;
 
 }
 
@@ -95,23 +95,23 @@ height: 40rem;
     justify-content: center;
     align-items: center;
     background-color: var(--text-light);
-    gap: .5rem;
-    padding: .5rem;
-    border-radius: 1.1875rem;
+    gap: 8px;
+    padding: 8px;
+    border-radius: 19px;
 }
 .hero-sec .container{
-padding: 7rem 0;
+padding: 112px 0;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-gap: 1.5rem;
+gap: 24px;
 }
 .badge span{
 color: var(--text-green);
 }
 h1{
-font-size: 4.5rem;
+font-size: 72px;
 font-weight: 700;
 color: var(--text-light);
 }
@@ -125,13 +125,13 @@ h1 span{
 .btns {
  display: flex;
  align-items: center;
- gap: 1rem;
+ gap: 16px;
 }
 .btns button:first-child {
 
     display: inline-flex;
 align-items: center;
-gap: .5rem;
+gap: 8px;
 
 background-color: var(--text-green);
 
@@ -139,16 +139,160 @@ background-color: var(--text-green);
 .btns button:last-child{
     display: inline-flex;
     align-items: center;
-    gap: .5rem;
+    gap: 8px;
     background-color: transparent;
     border: 1px solid var(--text-green);
 
 }
 
-.work-sec{
-    padding: top 2rem; ;
-}
-.work-sec h2{
 
+.works-sec{
+    padding-top:  40px; 
+}
+
+.works-sec h2, .works-sec p{
+text-align: center;
+}
+
+.works-sec h2{
+
+    padding-bottom: 16px;
+}
+.cards{
+padding-top: 24px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+
+}
+.card{
     
+    text-align: center;
+    padding: 48px 20px;
+    box-shadow: 0 0 8px 0 oklch(0% 0 0 / 0.06);
+    box-shadow: #000000;
+    height: 300px;
+}
+.card .icon{
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+background-color: var(--icon-bg);
+padding: 14px;
+border-radius: 50%;
+
+}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-dark-blue);
+padding: 16px 0;
+
+}
+
+
+
+
+.solution-sec{
+    padding: 120px 0;
+margin-left: 250px;
+
+}
+
+.solution-sec .container{
+    display: flex;
+    align-items: center;
+gap: 24px;
+
+}
+
+.solution-sec .txt span{
+text-transform: uppercase;
+color: var(--text-green);
+
+}
+.solution-sec h2{
+
+    padding: 16px 0;
+}
+.solution-sec ul{
+    padding-top: 32px;
+}
+.solution-sec li{
+    padding-block: 8px ;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-dark-blue);
+    font-weight: 500 ;
+
+}
+
+
+
+.join-sec .container{
+background-color: var(--bg-gray);
+display: flex;
+flex-direction: column;
+gap: 16px;
+justify-content: center;
+align-items: center;
+padding: 64px 0;
+border-radius: 6px;
+margin-left: 80px;
+margin-right: 80px;
+}
+
+
+.join-sec button{
+display: inline-flex;
+align-items: center;
+    background-color: var(--btn-dark-green);
+    gap: 8px;
+    box-shadow: 0 10px 20px 0 hsla(0, 0%, 0%, 0.155);
+ 
+
+}
+
+
+button:hover { background-color: #000000; transform: scale(1.05);  }
+
+.join-sec{
+    padding-bottom: 80px;
+}
+
+
+footer{
+
+    padding: 112px 0 28px;
+    background-color: var(--text-dark-blue);
+
+}
+
+footer .item{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.social p{
+color: var(--text-light);
+padding-bottom: 16px;
+
+}
+.social img + img{
+margin-left: 12px;
+margin-right: 12px;
+}
+hr{
+margin-top: 64px;
+background-color: var(--text-gray);
+height: 1px;
+border: none;
+
+}
+
+.copy-txt{
+text-align: center;
+    padding-top: 28px;
 }
