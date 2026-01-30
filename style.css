@@ -30,7 +30,9 @@ font-family: inherit;
 border: none;
 padding: 16px;
 border-radius: 4px ;
+
 }
+
 
 li{
   list-style: none;
@@ -147,7 +149,7 @@ background-color: var(--text-green);
 
 
 .works-sec{
-    padding-top:  40px; 
+    padding-top:  80px; 
 }
 
 .works-sec h2, .works-sec p{
@@ -256,7 +258,7 @@ align-items: center;
 }
 
 
-button:hover { background-color: #000000; transform: scale(1.05);  }
+button:hover { background-color: #000000; transform: scale(1.09);  }
 
 .join-sec{
     padding-bottom: 80px;
@@ -274,16 +276,19 @@ footer .item{
 display: flex;
 justify-content: space-between;
 align-items: center;
+margin-left: 80px;
+margin-right: 80px;
 }
-.social p{
+.socials p{
 color: var(--text-light);
 padding-bottom: 16px;
+font-size: larger;
+}
+.socials img {
+margin-left: 6px;
+margin-right: 6px;
+}
 
-}
-.social img + img{
-margin-left: 12px;
-margin-right: 12px;
-}
 hr{
 margin-top: 64px;
 background-color: var(--text-gray);
